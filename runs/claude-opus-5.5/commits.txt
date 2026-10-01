@@ -1,0 +1,7 @@
+792ed2e39 2026-10-01 19:55:40 +0100 docs: add Coloring Book tool design spec
+af6bd2e96 2026-10-01 20:00:22 +0100 docs: address adversarial review of Coloring Book spec
+19159bb90 2026-10-01 20:05:51 +0100 docs: add Coloring Book implementation plan
+ebe2a2af9 2026-10-01 20:15:16 +0100 feat(coloring-book): build image pages interleaved with blank backs
+4b128a6ea 2026-10-01 20:30:40 +0100 feat(coloring-book): add /api/v1/misc/coloring-book endpoint
+8b6cb06b6 2026-10-01 20:35:49 +0100 feat(coloring-book): add frontend operation and parameter hooks
+99df66b34 2026-10-01 20:41:10 +0100 feat(coloring-book): add Coloring Book tool under Page Formatting

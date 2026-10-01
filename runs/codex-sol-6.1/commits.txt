@@ -1,0 +1,4 @@
+387c00b45 2026-10-01 19:56:02 +0100 docs: specify coloring book tool design
+ba40b6fd4 2026-10-01 20:00:51 +0100 docs: resolve coloring book spec review findings
+d86a488ee 2026-10-01 20:05:44 +0100 docs: plan coloring book tool implementation
+363974f91 2026-10-01 20:29:45 +0100 feat: compose coloring book PDFs with blank backs
