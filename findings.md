@@ -38,11 +38,7 @@ Vanilla and ATAI Copilot Luna were tested by hand, and both failed in the same t
   itself is a valid PDF and opens once renamed to `.pdf`.
 
 Neither run found either defect in its own reviews or tests, and both
-reported the feature complete. The two runs took different backend approaches
-(vanilla extended the existing image-to-PDF endpoint, ATAI added a dedicated
-one), but they made the same frontend mistakes. That suggests the cause is
-the frontend tool pattern they both copied, or a missed output-file setting.
-The code hasn't been checked to confirm which.
+reported the feature complete.
 
 See `runs/<run-id>/manual-test.md`. The checklist used for every run is in
 `manual-test-checklist.md`.
