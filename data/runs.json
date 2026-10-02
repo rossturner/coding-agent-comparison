@@ -105,12 +105,13 @@
       "model": "GPT Sol 6.1",
       "modelId": "gpt-6.1-sol",
       "effort": "medium",
-      "status": "not-started",
+      "status": "unavailable",
       "branch": null,
       "checkout": null,
       "sessions": [],
       "spec": null,
-      "plan": null
+      "plan": null,
+      "unavailableReason": "GPT Sol 6.1 is not available in non-ATAI Copilot for this user."
     },
     {
       "id": "copilot-luna-6",

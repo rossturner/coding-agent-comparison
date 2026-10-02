@@ -30,13 +30,16 @@ starting from `main`, and is given this prompt:
 | `claude-haiku-4.5` | Claude Code | Haiku 4.5 | high |
 | `codex-sol-6.1` | Codex | GPT Sol 6.1 | medium |
 | `codex-luna-6` | Codex | GPT Luna 6 | high |
-| `copilot-sol-6.1` | Copilot | GPT Sol 6.1 | medium |
+| `copilot-sol-6.1` | Copilot | GPT Sol 6.1 | medium (not run: model not available) |
 | `copilot-luna-6` | Copilot | GPT Luna 6 | high |
 | `atai-copilot-sol-6.1` | ATAI Copilot | GPT Sol 6.1 | medium |
 | `atai-copilot-luna-6` | ATAI Copilot | GPT Luna 6 | high |
 
 ATAI Copilot is Copilot with Autotrader AI (ATAI): a set of skills and
 instructions that work alongside "vanilla" Copilot.
+
+GPT Sol 6.1 isn't available in vanilla Copilot, so `copilot-sol-6.1` can't be
+run. Sol 6.1 in Copilot is only compared through ATAI Copilot.
 
 `data/runs.json` holds each run's status, branch, checkout and the source paths
 of its session logs, spec and plan.
