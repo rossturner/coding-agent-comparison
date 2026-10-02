@@ -10,7 +10,7 @@
       "model": "Opus 5.5",
       "modelId": "claude-opus-5-5",
       "effort": "medium",
-      "status": "in-progress",
+      "status": "complete",
       "branch": "claude-opus-5.5",
       "checkout": "~/workspace/stirling-pdf",
       "sessions": [

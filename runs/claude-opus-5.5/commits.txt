@@ -5,3 +5,5 @@ ebe2a2af9 2026-10-01 20:15:16 +0100 feat(coloring-book): build image pages inter
 4b128a6ea 2026-10-01 20:30:40 +0100 feat(coloring-book): add /api/v1/misc/coloring-book endpoint
 8b6cb06b6 2026-10-01 20:35:49 +0100 feat(coloring-book): add frontend operation and parameter hooks
 99df66b34 2026-10-01 20:41:10 +0100 feat(coloring-book): add Coloring Book tool under Page Formatting
+9e409d27d 2026-10-01 21:00:43 +0100 fix(coloring-book): drop single-file scope hints, en-US spelling, import order
+f08678f3f 2026-10-01 21:00:43 +0100 docs: align coloring book spec with implementation
