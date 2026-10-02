@@ -62,6 +62,8 @@ of its session logs, spec and plan.
 - `plan.md` — the implementation plan written under `docs/superpowers/plans/`.
 - `commits.txt` — commits on the run's branch since `main`.
 - `notes.md` — observations made while the run happened, and findings.
+- `manual-test.md` — results of testing the branch by hand, following
+  `manual-test-checklist.md`.
 
 Findings across runs are in `findings.md`.
 

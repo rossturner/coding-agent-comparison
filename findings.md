@@ -27,3 +27,22 @@ the cheapest model that can handle each subagent's job.
   claude-haiku-4.5 by default, which is why that attempt was discarded.
 - Both Copilot runs that count were made with `modelPolicy: "required"`
   set, so every subagent ran on gpt-6-luna.
+
+## Manual testing: both Copilot Luna runs had the same two defects
+
+Vanilla and ATAI Copilot Luna were tested by hand, and both failed in the same two ways:
+
+- The file chooser in the tool's sidebar only accepts `.pdf` files, so images
+  can't be picked there. Selecting images in the main file view works.
+- The download is named `coloring_book_{first image filename}.jpg`. The file
+  itself is a valid PDF and opens once renamed to `.pdf`.
+
+Neither run found either defect in its own reviews or tests, and both
+reported the feature complete. The two runs took different backend approaches
+(vanilla extended the existing image-to-PDF endpoint, ATAI added a dedicated
+one), but they made the same frontend mistakes. That suggests the cause is
+the frontend tool pattern they both copied, or a missed output-file setting.
+The code hasn't been checked to confirm which.
+
+See `runs/<run-id>/manual-test.md`. The checklist used for every run is in
+`manual-test-checklist.md`.
