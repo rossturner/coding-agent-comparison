@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="stirling.software.SPDF.controller.api.converters.ConvertImgPDFControllerTest" tests="4" skipped="0" failures="3" errors="0" timestamp="2026-10-02T08:07:03.427Z" hostname="DESKTOP-KE23D05" time="0.016">
+  <properties/>
+  <testcase name="convertToPdf_nullFitOptionDefaultsToFillPage()" classname="stirling.software.SPDF.controller.api.converters.ConvertImgPDFControllerTest" time="0.005">
+    <failure message="org.opentest4j.AssertionFailedError: expected: &lt;&lt;200 OK OK,[B@7c6c33a2,[]&gt;&gt; but was: &lt;null&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;&lt;200 OK OK,[B@7c6c33a2,[]&gt;&gt; but was: &lt;null&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:158)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:139)
+	at org.junit.jupiter.api.AssertSame.failNotSame(AssertSame.java:54)
+	at org.junit.jupiter.api.AssertSame.assertSame(AssertSame.java:37)
+	at org.junit.jupiter.api.AssertSame.assertSame(AssertSame.java:32)
+	at org.junit.jupiter.api.Assertions.assertSame(Assertions.java:2951)
+	at stirling.software.SPDF.controller.api.converters.ConvertImgPDFControllerTest.convertToPdf_nullFitOptionDefaultsToFillPage(ConvertImgPDFControllerTest.java:130)
+</failure>
+  </testcase>
+  <testcase name="controllerIsConstructed()" classname="stirling.software.SPDF.controller.api.converters.ConvertImgPDFControllerTest" time="0.002"/>
+  <testcase name="convertToPdf_withAutoRotate()" classname="stirling.software.SPDF.controller.api.converters.ConvertImgPDFControllerTest" time="0.004">
+    <failure message="org.opentest4j.AssertionFailedError: expected: &lt;&lt;200 OK OK,[B@5e4178cc,[]&gt;&gt; but was: &lt;null&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;&lt;200 OK OK,[B@5e4178cc,[]&gt;&gt; but was: &lt;null&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:158)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:139)
+	at org.junit.jupiter.api.AssertSame.failNotSame(AssertSame.java:54)
+	at org.junit.jupiter.api.AssertSame.assertSame(AssertSame.java:37)
+	at org.junit.jupiter.api.AssertSame.assertSame(AssertSame.java:32)
+	at org.junit.jupiter.api.Assertions.assertSame(Assertions.java:2951)
+	at stirling.software.SPDF.controller.api.converters.ConvertImgPDFControllerTest.convertToPdf_withAutoRotate(ConvertImgPDFControllerTest.java:173)
+</failure>
+  </testcase>
+  <testcase name="convertToPdf_singleImage()" classname="stirling.software.SPDF.controller.api.converters.ConvertImgPDFControllerTest" time="0.004">
+    <failure message="org.opentest4j.AssertionFailedError: expected: &lt;&lt;200 OK OK,[B@458127ca,[]&gt;&gt; but was: &lt;null&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;&lt;200 OK OK,[B@458127ca,[]&gt;&gt; but was: &lt;null&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:158)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:139)
+	at org.junit.jupiter.api.AssertSame.failNotSame(AssertSame.java:54)
+	at org.junit.jupiter.api.AssertSame.assertSame(AssertSame.java:37)
+	at org.junit.jupiter.api.AssertSame.assertSame(AssertSame.java:32)
+	at org.junit.jupiter.api.Assertions.assertSame(Assertions.java:2951)
+	at stirling.software.SPDF.controller.api.converters.ConvertImgPDFControllerTest.convertToPdf_singleImage(ConvertImgPDFControllerTest.java:87)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

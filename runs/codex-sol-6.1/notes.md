@@ -25,3 +25,10 @@ runs at `medium`.
 
 ## Observations
 
+- 2026-10-02 about 08:33 BST: interference from outside the run. During its Task 6
+  browser check, a Codex subagent launched a headless Chrome on port 9222
+  (profile `.superpowers/sdd/2026-10-01-coloring-book/task6-browser-profile`).
+  The comparison project's Claude Code session has its Playwright MCP set to
+  `--cdp-endpoint http://localhost:9222`, so it attached to that browser and
+  navigated its page to a claude.ai share link. If Task 6 shows an unexpected
+  page or a Cloudflare challenge around then, this is the cause, not the agent.

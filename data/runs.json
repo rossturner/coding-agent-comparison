@@ -119,21 +119,17 @@
       "model": "GPT Luna 6",
       "modelId": "gpt-6-luna",
       "effort": "high",
-      "status": "re-running",
-      "branch": null,
-      "checkout": null,
-      "sessions": [],
-      "spec": null,
-      "plan": null,
-      "discardedAttempts": [
+      "status": "complete",
+      "branch": "copilot-luna-subagent-fix",
+      "checkout": "~/workspace/stirling-pdf-4",
+      "sessions": [
         {
-          "dir": "discarded-attempt-1",
-          "branch": "copilot-luna",
-          "checkout": "~/workspace/stirling-pdf-4",
-          "session": "~/.copilot/session-state/d05eabd3-d8d7-4a25-b26b-34e1e40ec731",
-          "reason": "rubber-duck spec review defaulted to claude-haiku-4.5"
+          "role": "main",
+          "path": "~/.copilot/session-state/e4078e52-6e98-422b-a80c-8ef9550703fe"
         }
-      ]
+      ],
+      "spec": "docs/superpowers/specs/2026-10-02-coloring-book-design.md",
+      "plan": "docs/superpowers/plans/2026-10-02-coloring-book.md"
     },
     {
       "id": "atai-copilot-sol-6.1",

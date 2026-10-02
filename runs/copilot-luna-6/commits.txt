@@ -1,0 +1,8 @@
+06447e3d6 2026-10-02 08:13:56 +0100 docs: add coloring book tool design
+a47ae752c 2026-10-02 08:22:50 +0100 docs: clarify coloring book tool identity in spec
+a90609923 2026-10-02 08:32:11 +0100 docs: include generated model consumers in coloring book spec
+0b7a7cc10 2026-10-02 09:23:41 +0100 feat: support blank backs for image PDFs
+4560741a2 2026-10-02 09:43:52 +0100 test: update image PDF controller overload stubs
+de03c82b7 2026-10-02 10:08:36 +0100 feat: add Coloring Book PDF tool
+78c5bfa58 2026-10-02 10:34:17 +0100 test: complete Coloring Book review fixes
+2c1e41308 2026-10-02 10:56:21 +0100 fix: register Coloring Book tool key
