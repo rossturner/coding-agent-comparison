@@ -34,6 +34,9 @@ Vanilla and ATAI Copilot Luna were tested by hand, and both failed in the same t
 
 - The file chooser in the tool's sidebar only accepts `.pdf` files, so images
   can't be picked there. Selecting images in the main file view works.
+  In both runs the sidebar opens the operating system's file picker, not
+  Stirling PDF's own file chooser dialog. That may not be a defect, but it's
+  worth noting.
 - The download is named `coloring_book_{first image filename}.jpg`. The file
   itself is a valid PDF and opens once renamed to `.pdf`.
 
