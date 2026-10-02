@@ -63,6 +63,8 @@ of its session logs, spec and plan.
 - `commits.txt` — commits on the run's branch since `main`.
 - `notes.md` — observations made while the run happened, and findings.
 
+Findings across runs are in `findings.md`.
+
 Copy these in with:
 
 ```
