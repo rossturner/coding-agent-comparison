@@ -154,12 +154,17 @@
       "model": "GPT Luna 6",
       "modelId": "gpt-6-luna",
       "effort": "high",
-      "status": "not-started",
-      "branch": null,
-      "checkout": null,
-      "sessions": [],
-      "spec": null,
-      "plan": null
+      "status": "complete",
+      "branch": "atai-copilot-luna",
+      "checkout": "~/personal/stirling-pdf",
+      "sessions": [
+        {
+          "role": "main",
+          "path": "~/.copilot/session-state/fa4b6b3d-abe7-40eb-8bc4-d2eb773b5af7"
+        }
+      ],
+      "spec": "docs/superpowers/specs/2026-10-02-coloring-book-design.md",
+      "plan": "docs/superpowers/plans/2026-10-02-coloring-book.md"
     }
   ]
 }

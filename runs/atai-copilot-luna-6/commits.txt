@@ -1,0 +1,7 @@
+f44cdb6b3 2026-10-02 09:43:28 +0100 docs: add coloring book tool design spec
+f116275a7 2026-10-02 09:44:41 +0100 docs: specify coloring book input tests
+c2e869c85 2026-10-02 10:18:12 +0100 feat: add coloring book PDF endpoint
+2b7bcf4fc 2026-10-02 10:30:15 +0100 feat: add coloring book tool
+f4abd37f0 2026-10-02 10:35:45 +0100 fix: regenerate coloring book OG metadata
+0d7e68daf 2026-10-02 10:45:46 +0100 test: cover malformed coloring book image
+cba67cbc8 2026-10-02 10:50:59 +0100 fix: register coloring book tool key
