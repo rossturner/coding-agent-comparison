@@ -1,0 +1,20 @@
+
+ RUN  v3.2.7 /home/ross/workspace/stirling-pdf-4/.superpowers/sdd/2026-10-01-coloring-book/baseline-auth/frontend/editor
+
+
+⎯⎯⎯⎯⎯⎯ Failed Suites 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  |proprietary| src/proprietary/routes/AuthCallback.test.tsx [ src/proprietary/routes/AuthCallback.test.tsx ]
+Error: Denied ID /home/ross/workspace/stirling-pdf-4/frontend/node_modules/lucide-static/icons/activity.svg?react
+  File: /home/ross/workspace/stirling-pdf-4/frontend/node_modules/lucide-static/icons/activity.svg?react
+ ❯ loadAndTransform ../../../../../../frontend/node_modules/vite/dist/node/chunks/config.js:22696:33
+ ❯ doTransform ../../../../../../frontend/node_modules/vite/dist/node/chunks/config.js:22673:17
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  no tests
+   Start at  23:39:34
+   Duration  2.63s (transform 350ms, setup 148ms, collect 0ms, tests 0ms, environment 561ms, prepare 108ms)
+

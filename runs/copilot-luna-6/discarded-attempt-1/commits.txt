@@ -1,0 +1,15 @@
+b4f9969d3 2026-10-01 22:10:53 +0100 docs: add Coloring Book tool design spec
+7ca62051c 2026-10-01 22:16:32 +0100 docs: refine Coloring Book design spec
+e4a0a20fd 2026-10-01 22:21:17 +0100 docs: use a distinct Coloring Book endpoint
+db00d647e 2026-10-01 22:42:59 +0100 feat: interleave blank pages in coloring book PDFs
+ace549d04 2026-10-01 22:45:09 +0100 docs: restore Coloring Book implementation plan
+a9f974d18 2026-10-01 22:51:32 +0100 feat: add Coloring Book PDF endpoint
+b23ba4a8f 2026-10-01 22:57:06 +0100 fix: reject empty coloring book uploads
+44ff5344c 2026-10-01 23:16:04 +0100 chore: generate Coloring Book endpoint models
+4294d59ea 2026-10-01 23:16:53 +0100 docs: track engine tool IO generation
+7183c8c38 2026-10-01 23:18:44 +0100 docs: include translation post-commit fix step
+cc5411efc 2026-10-01 23:35:26 +0100 feat: add Coloring Book frontend tool
+790bbae2a 2026-10-01 23:42:41 +0100 docs: record known baseline validation blockers
+02f4f8260 2026-10-02 00:05:43 +0100 docs: track backend tool identity parity
+90a8facdf 2026-10-02 00:07:43 +0100 docs: track generated Coloring Book metadata
+80952eef9 2026-10-02 00:20:21 +0100 fix: close Coloring Book review gaps

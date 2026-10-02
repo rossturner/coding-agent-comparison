@@ -35,7 +35,7 @@ def copy_sessions(run, out):
             print(f"  missing session: {src}")
             continue
         if src.is_dir():
-            shutil.copytree(src, dest / s["role"])
+            shutil.copytree(src, dest / s["role"], ignore=shutil.ignore_patterns("inuse.*", ".*.lock"))
         else:
             name = src.name if s["role"] == "main" else f"{s['role']}-{i}-{src.name}"
             shutil.copy2(src, dest / name)

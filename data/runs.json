@@ -118,12 +118,21 @@
       "model": "GPT Luna 6",
       "modelId": "gpt-6-luna",
       "effort": "high",
-      "status": "not-started",
+      "status": "re-running",
       "branch": null,
       "checkout": null,
       "sessions": [],
       "spec": null,
-      "plan": null
+      "plan": null,
+      "discardedAttempts": [
+        {
+          "dir": "discarded-attempt-1",
+          "branch": "copilot-luna",
+          "checkout": "~/workspace/stirling-pdf-4",
+          "session": "~/.copilot/session-state/d05eabd3-d8d7-4a25-b26b-34e1e40ec731",
+          "reason": "rubber-duck spec review defaulted to claude-haiku-4.5"
+        }
+      ]
     },
     {
       "id": "atai-copilot-sol-6.1",
